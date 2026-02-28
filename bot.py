@@ -75,9 +75,10 @@ async def on_ready():
 async def help(ctx):
     await ctx.send("""
 📚 **DAFTAR COMMAND**
+```
 !startquiz → Mulai quiz
 !stats → Lihat statistik kamu
-!help → Lihat command
+!help → Lihat command```
 """)
 
 # =========================
